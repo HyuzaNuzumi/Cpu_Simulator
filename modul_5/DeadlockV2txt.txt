@@ -1,0 +1,10 @@
+program P2
+	resource (2, allocate)
+	wait(3)
+	resource (3, allocate)
+	
+	for n = 1 to 20
+	next
+end
+
+

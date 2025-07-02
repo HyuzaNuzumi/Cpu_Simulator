@@ -1,0 +1,6 @@
+program Dead1locks
+	while true
+		n = 1
+	wend
+end
+

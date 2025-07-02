@@ -1,0 +1,24 @@
+program Squad_Numbers
+	var tag string (11)
+	var byc string (7)
+	
+	sub Name as thread
+		tag = "HyuzaNuzumi"
+		writeln("Name")
+	end sub
+	
+	sub Numbers as thread
+		byc = "Code 02"
+		writeln("Numbers")
+	end sub
+	
+	call Name
+	Call Numbers
+	writeln("Squad_Numbers")
+	wait
+	
+	writeln(tag)
+	writeln(byc)
+end
+	
+
